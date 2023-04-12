@@ -76,6 +76,31 @@
                             </li>
                         </ul>
                     </li>
+                    <li class="nav-item has-treeview {{ isActive(['admin.users.index' , 'admin.users.create' , 'admin.users.edit'] , 'menu-open') }}">
+                        <a href="{{ route('admin.users.index') }}" class="nav-link {{ isActive('admin.users.index') }}">
+                            <i class="nav-icon fa fa-users"></i>
+                            <p>
+                                نظرات کاربران
+                                <i class="right fa fa-angle-left"></i>
+                            </p>
+                        </a>
+                        <ul class="nav nav-treeview">
+                            
+                            <li class="nav-item">
+                                <a href="{{ route('admin.comments.index') }}" class="nav-link {{ isActive('admin.comments.index') }}">
+                                    <i class="fa fa-circle-o nav-icon"></i>
+                                    <p>تائید شده</p>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="{{ route('admin.comments.unapproved') }}" class="nav-link {{ isActive('admin.comments.unapproved') }}">
+                                    <i class="fa fa-circle-o nav-icon"></i>
+                                    <p>تائید نشده</p>
+                                </a>
+                            </li>
+                            
+                        </ul>
+                    </li>
                 </ul>
             </nav>
             <!-- /.sidebar-menu -->
