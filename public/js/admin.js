@@ -1411,7 +1411,7 @@ function checkCookie(cname) {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! E:\site\laravel\lara pro\laravepro1ra\resources\js\admin.js */"./resources/js/admin.js");
+module.exports = __webpack_require__(/*! E:\videos laravel pro\laraStores\resources\js\admin.js */"./resources/js/admin.js");
 
 
 /***/ })

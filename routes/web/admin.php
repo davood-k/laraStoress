@@ -22,3 +22,4 @@ Route::resource('roles', 'RoleController');
 Route::resource('products' , 'ProductController')->except(['show']);
 Route::get('comments/unapproved', 'CommentController@unapproved')->name('comments.unapproved');
 Route::resource('comments' , 'CommentController')->only(['index' , 'update' , 'destroy']);
+Route::resource('categories', 'CategoryController');

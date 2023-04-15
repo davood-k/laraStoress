@@ -37833,9 +37833,9 @@ __webpack_require__(/*! sweetalert */ "./node_modules/sweetalert/dist/sweetalert
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! E:\site\laravel\lara pro\laravepro1ra\resources\js\app.js */"./resources/js/app.js");
-__webpack_require__(/*! E:\site\laravel\lara pro\laravepro1ra\resources\sass\admin.scss */"./resources/sass/admin.scss");
-module.exports = __webpack_require__(/*! E:\site\laravel\lara pro\laravepro1ra\resources\sass\app.scss */"./resources/sass/app.scss");
+__webpack_require__(/*! E:\videos laravel pro\laraStores\resources\js\app.js */"./resources/js/app.js");
+__webpack_require__(/*! E:\videos laravel pro\laraStores\resources\sass\admin.scss */"./resources/sass/admin.scss");
+module.exports = __webpack_require__(/*! E:\videos laravel pro\laraStores\resources\sass\app.scss */"./resources/sass/app.scss");
 
 
 /***/ })

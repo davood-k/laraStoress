@@ -76,8 +76,8 @@
                             </li>
                         </ul>
                     </li>
-                    <li class="nav-item has-treeview {{ isActive(['admin.users.index' , 'admin.users.create' , 'admin.users.edit'] , 'menu-open') }}">
-                        <a href="{{ route('admin.users.index') }}" class="nav-link {{ isActive('admin.users.index') }}">
+                    <li class="nav-item has-treeview {{ isActive(['admin.comments.index' , 'admin.comments.unapproved'] , 'menu-open') }}">
+                        <a href="#" class="nav-link {{ isActive(['admin.comments.index' , 'admin.comments.unapproved' ])}}">
                             <i class="nav-icon fa fa-users"></i>
                             <p>
                                 نظرات کاربران
@@ -99,6 +99,25 @@
                                 </a>
                             </li>
                             
+                        </ul>
+                    </li>
+
+                    <li class="nav-item has-treeview {{ isActive('admin.categories.index' , 'menu-open') }}">
+                        <a href="#" class="nav-link {{ isActive('admin.categories.index')}}">
+                            <i class="nav-icon fa fa-users"></i>
+                            <p>
+دسته بندی ها
+                                <i class="right fa fa-angle-left"></i>
+                            </p>
+                        </a>
+                        <ul class="nav nav-treeview">
+                            
+                            <li class="nav-item">
+                                <a href="{{ route('admin.categories.index') }}" class="nav-link {{ isActive('admin.categories.index') }}">
+                                    <i class="fa fa-circle-o nav-icon"></i>
+                                    <p>لیست دسته بندی</p>
+                                </a>
+                            </li>                            
                         </ul>
                     </li>
                 </ul>
