@@ -2,24 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5b82c309-bc8f-4c17-9ecf-154043c3b807" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/laravepro.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/laravepro.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/ProductController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/ProductController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Product.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Product.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/app.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/sass/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/app.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/layouts/sidebar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/layouts/sidebar.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/master.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/master.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/jquery-3.4.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/jquery-3.4.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/products/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/products/create.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/products/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/products/edit.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/home/single-product.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home/single-product.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web/admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web/admin.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web/home.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web/home.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack.mix.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.mix.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -56,11 +47,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/storage/framework/views/04022cf16560dc9ad13878786f2abbdc10424598.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="388">
               <caret line="94" column="24" selection-start-line="94" selection-start-column="24" selection-end-line="94" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/ProductController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="208">
+              <caret line="116" column="23" selection-start-line="116" selection-start-column="23" selection-end-line="116" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -129,6 +129,7 @@
         <option value="$PROJECT_DIR$/storage/framework/views/cc89d3fe00fb74899ed4aa71fbfc1df8b7217562.php" />
         <option value="$PROJECT_DIR$/resources/views/admin/master.blade.php" />
         <option value="$PROJECT_DIR$/storage/framework/views/04022cf16560dc9ad13878786f2abbdc10424598.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/Admin/ProductController.php" />
       </list>
     </option>
   </component>
@@ -267,6 +268,43 @@
             <path>
               <item name="laraStores" type="b2602c69:ProjectViewProjectNode" />
               <item name="laraStores" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="laraStores" type="b2602c69:ProjectViewProjectNode" />
+              <item name="laraStores" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Http" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="laraStores" type="b2602c69:ProjectViewProjectNode" />
+              <item name="laraStores" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Http" type="462c0819:PsiDirectoryNode" />
+              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="laraStores" type="b2602c69:ProjectViewProjectNode" />
+              <item name="laraStores" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Http" type="462c0819:PsiDirectoryNode" />
+              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
+              <item name="Admin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="laraStores" type="b2602c69:ProjectViewProjectNode" />
+              <item name="laraStores" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="laraStores" type="b2602c69:ProjectViewProjectNode" />
+              <item name="laraStores" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="laraStores" type="b2602c69:ProjectViewProjectNode" />
+              <item name="laraStores" type="462c0819:PsiDirectoryNode" />
               <item name="routes" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -341,11 +379,12 @@
       <workItem from="1681213301288" duration="72000" />
       <workItem from="1681291670380" duration="107000" />
       <workItem from="1681334844953" duration="892000" />
+      <workItem from="1682194118101" duration="121000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47829000" />
+    <option name="totallyTimeSpent" value="47950000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -362,7 +401,7 @@
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info id="npm" order="1" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.13161875" />
+      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.13313162" />
       <window_info id="Structure" order="3" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="0" weight="0.39324117" />
       <window_info anchor="bottom" id="Database Changes" order="1" />
@@ -387,15 +426,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/Console/Kernel.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-182">
-          <folding>
-            <element signature="e#31#74#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Contracts/Auth/MustVerifyEmail.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
@@ -682,6 +712,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="388">
           <caret line="94" column="24" selection-start-line="94" selection-start-column="24" selection-end-line="94" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/ProductController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="116" column="23" selection-start-line="116" selection-start-column="23" selection-end-line="116" selection-end-column="23" />
         </state>
       </provider>
     </entry>

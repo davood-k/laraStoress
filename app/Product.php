@@ -22,7 +22,7 @@ class Product extends Model
 
     public function attributes()
     {
-        return $this->belongsToMany(Attribute::class);
+        return $this->belongsToMany(Attribute::class)->withpivot('value_id');
     }
     
 }

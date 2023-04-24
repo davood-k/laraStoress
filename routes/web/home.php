@@ -36,7 +36,7 @@ Route::get('/secret' , function() {
 Route::get('products' , 'ProductController@index');
 Route::get('products/{product}' , 'ProductController@single');
 Route::post('comments' , 'HomeController@comment')->name('send.comment');
-Route::get('/' , function(){
-    
+Route::get('/cart' , function(){
+    dd(Cart::get('2'));
 });
 

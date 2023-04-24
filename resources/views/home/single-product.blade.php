@@ -90,7 +90,13 @@
                     <div class="card-header">
                         {{ $product->title }}
                     </div>
-
+                    <div class="card-body">
+                         @if($product->categories)
+                            @foreach($product->categories as $cat)
+                              <a href="#">{{ $cat->name }}</a>
+                            @endforeach
+                        @endif
+                    </div>
                     <div class="card-body">
                         {{ $product->description }}
                     </div>
