@@ -87,10 +87,21 @@
         <div class="row justify-content-center">
             <div class="col-md-12">
                 <div class="card">
-                    <div class="card-header">
+                    <div class="card-header d-flex justify-content-between">
                         {{ $product->title }}
+                        <form action="{{ route('cart.add' , $product->id) }}" method="POST" id="add-to-cart">
+                            @csrf
+                        </form>
+                        <span onclick="document.getElementById('add-to-cart').submit()" class="btn btn-sm btn-danger">اضافه کردن به سبد خرید</span>
                     </div>
-
+                    <?php
+                    declare (strict_types = 1);
+                    function returnUserName($name): string
+                    {
+                        return $name; 
+                    }
+                    returnUserName('cvbc');
+?>
                     <div class="card-body">
                         @if( $product->categories)
                             @foreach( $product->categories as $cate)
